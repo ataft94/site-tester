@@ -4,13 +4,13 @@ Standardized styles for all pages
 
 body {
     background: none no-repeat center center;
-    background-image: url('../images/earth.jpeg');
+    background-image: url('earth.jpeg');
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: Discovery;
     /* Unique cursor regular */
-    cursor: url('../Images/rocket-icon1.png'), auto;
+    cursor: url('rocket-icon1.png'), auto;
 }
 
 /* Link colors, external link indicator, and unique hover cursor */
@@ -22,7 +22,7 @@ body a:link, a:visited {
 }
 a:hover {
     color: rgba(255, 255, 255, 1);
-    cursor: url('../Images/rocket-icon2.png') 15 0, pointer;
+    cursor: url('rocket-icon2.png') 15 0, pointer;
 }
 
 header {
@@ -40,7 +40,7 @@ header {
     color: rgba(255, 255, 255, 1);
 
     /* Moon photo background to header only */
-    background-image: url('../images/moon-header.jpg');   
+    background-image: url('moon-header.jpg');   
     background-repeat: no-repeat;
     background-size: fit;
     background-position: center;  
